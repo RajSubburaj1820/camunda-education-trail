@@ -1,0 +1,7 @@
+Object needAirbnb = task.execution.getVariable("needAirbnb");
+if (needAirbnb==null)
+  task.execution.setVariable("needAirbnb2", false);
+
+Object needPlane = task.execution.getVariable("needPlane ");
+if (needPlane ==null)
+  task.execution.setVariable("needPlane ", false);
